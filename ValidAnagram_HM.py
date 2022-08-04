@@ -11,4 +11,4 @@ class Solution:
             countT[t[i]] = 1+countT.get(t[i], 0)
         for c in countS:
             if countS[c] != countT.get(c,0):
-                return False
+                return False 
